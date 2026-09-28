@@ -18,8 +18,8 @@ jobs:
             php: 8.4
             php-docker: 84
             composer-test: true
-            coverage: false
-            experimental-phan: false
+            coverage: true
+            experimental-phan: true
             experimental-phpunit: false
 
           # Latest MediaWiki master - PHP 8.4
